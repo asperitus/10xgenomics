@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+  10xgenomics:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: asperitus/10xgenomics:latest
